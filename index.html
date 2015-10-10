@@ -10,7 +10,7 @@
 
 
 
-<title>Welcome</title>
+<title></title>
 
 <script src="libs/jquery-1.11.0/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -86,38 +86,55 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </style>
 <div class="container-fluid main-container">
 
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Creative Data Solutions</a>
+      <a class="brand" href="/tutorials">Creative Data Solutions</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+                    
+          <li class="active"><a href="#">Main</a></li>
+                 
+           <li class="dropdown">
+            <a href="data_manipulation" class="dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+            <li class="divider"></li>
+               <li><a href="https://github.com/dgrapov/DeviumWeb" target="_blank">Devium</a></li>
+            <li class="divider"></li>   
+               <li><a href="https://github.com/dgrapov/MetaMapR" target="_blank">MetaMapR</a></li>
+            </li>
+          
+        </ul>
+         <li class="navigation"><a href="http://createdatasol.com/">Login</a></li>
+      </div><!--/.nav-collapse -->
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li><a href="/">Home</a></li>
-        <li class="dropdown">
-          <a href="main" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-             <li class="dropdown-header">Software</li>
-             <li><a href="authoring_basics.html">Devium</a></li>
-             <li><a href="authoring_pandoc_markdown.html">MetaMapR</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+  </div>
+</div
 
-<div id="header">
-<h1 class="title">Welcome</h1>
+
+
+<p><img src="www/images/cds_logo.jpg" /></p>
+<div id="check-back-soon-for-detailed-product-information" class="section level2">
+<h2>Check back soon for detailed product information</h2>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick"> <input type="hidden" name="hosted_button_id" value="VF2GAHBNPKFRE">
+<table>
+<tr><td>
+<input type="hidden" name="on0" value="Subscribe">Subscribe
+</td></tr><tr><td>
+<select name="os0"> <option value="Basic">Basic $10.00 USD</option> </select>
+</td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD"> <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
 </div>
-
-
-<p>Hello world.</p>
 
 
 <!-- some extra javascript for older browsers -->
@@ -149,7 +166,7 @@ $(document).ready(function () {
   <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'rmarkdown'; // required: replace example with your forum shortname
+        var disqus_shortname = 'createdatasol'; // required: replace example with your forum shortname
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
