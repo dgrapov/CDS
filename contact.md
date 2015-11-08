@@ -1,5 +1,7 @@
 ---
 output: html_document
 ---
-# Contact
-createdatasol@gmail.com
+<span>
+<h1>Contact</h1>
+<p>createdatasol@gmail.com</p>
+</span>

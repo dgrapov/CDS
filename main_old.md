@@ -1,5 +1,7 @@
-
-![](www/images/cds_logo.jpg)
+<span>
+<img src="www/images/cds_logo_small.png" alt="logo_top" >
+<img src="www/images/cds_ann.png" alt="logo2">
+</span>
 
 ## Check back soon for detailed product information
 
